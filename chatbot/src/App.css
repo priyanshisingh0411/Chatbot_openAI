@@ -1,0 +1,84 @@
+.App {
+  background: #212121;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+}
+.chatGptReply {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.chatSection {
+  flex: 1;
+  padding: 2rem;
+  position: relative;
+}
+.chatArea {
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding-bottom: 100px;
+}
+.navBar {
+  background: #000;
+  width: 300px;
+  height: 100%;
+  text-align: center;
+}
+.userChat {
+  display: flex;
+  justify-content: flex-end;
+}
+.userTextStyle {
+  background: #303030;
+  width: auto;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1.5rem;
+}
+.gptTextStyle {
+  width: auto;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+}
+.userAvatar {
+  background: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.InputArea {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* top: 0; */
+}
+
+.writingArea {
+  background: #303030;
+  border-radius: 16px;
+  width: 95%;
+}
+.newChat {
+  background: transparent;
+  border-radius: 16px;
+  border: solid 1px #fff;
+  padding: 10px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 80%;
+  cursor: pointer;
+  text-transform: none;
+  margin-top: 50px;
+}
+.newChat:hover {
+  background: rgb(176, 176, 176, 0.1);
+}
